@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "create_cooking:canned_goods"
+    },
+    "title": {
+      "translate": "advancement.create_cooking.canned_goods.title"
+    },
+    "description": {
+      "translate": "advancement.create_cooking.canned_goods.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "create_cooking:root",
+  "criteria": {
+    "s": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "create_cooking:canned_goods"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": []
+}

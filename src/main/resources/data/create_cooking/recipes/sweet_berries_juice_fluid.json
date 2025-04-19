@@ -1,0 +1,14 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:sweet_berries"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "create_cooking:sweet_berries_juice_fluid",
+      "amount": 6750
+    }
+  ]
+}

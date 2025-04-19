@@ -1,0 +1,14 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:melon_slice"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "create_cooking:watermelon_juice_fluid",
+      "amount": 10125
+    }
+  ]
+}

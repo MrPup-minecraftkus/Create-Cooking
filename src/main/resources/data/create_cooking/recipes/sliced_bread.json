@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "minecraft:bread"
+    }
+  ],
+  "results": [
+    {
+      "item": "create_cooking:sliced_bread",
+    "count": 4
+    }
+  ]
+}

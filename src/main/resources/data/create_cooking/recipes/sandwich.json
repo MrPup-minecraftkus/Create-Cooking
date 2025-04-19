@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:cooked_beef"
+    },
+    {
+      "item": "minecraft:bread"
+    },
+    {
+      "item": "create_cooking:cheese"
+    }
+  ],
+  "result": {
+    "item": "create_cooking:sandwich",
+    "count": 2
+  }
+}

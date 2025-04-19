@@ -1,0 +1,15 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "amount": 81000,
+      "fluidTag": "c:milk"
+    }
+  ],
+  "results": [
+    {
+    "item": "create_cooking:cheese_block",
+    "count": 1
+    }
+  ]
+}

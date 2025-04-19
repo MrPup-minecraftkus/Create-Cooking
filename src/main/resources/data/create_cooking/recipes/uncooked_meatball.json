@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "minecraft:beef"
+    }
+  ],
+  "results": [
+    {
+      "item": "create_cooking:uncooked_meatball",
+      "count": 2
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "create_cooking:apple_pie"
+    },
+    {
+      "item": "create:experience_nugget",
+      "count": 3
+    }
+  ],
+  "results": [
+    {
+      "item": "create_cooking:experience_pie",
+      "count": 1
+    }
+  ]
+}

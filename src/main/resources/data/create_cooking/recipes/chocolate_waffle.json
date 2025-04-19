@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "create_cooking:waffle"
+    },
+    {
+      "amount": 27000,
+      "fluid": "create:chocolate",
+      "nbt": {}
+    }
+  ],
+  "results": [
+    {
+      "item": "create_cooking:chocolate_waffle"
+    }
+  ]
+}

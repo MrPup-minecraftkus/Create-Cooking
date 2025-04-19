@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "create_cooking:sliced_bread"
+    },
+    {
+      "amount": 20250,
+      "fluidTag": "c:honey"
+    }
+  ],
+  "results": [
+    {
+      "item": "create_cooking:toast_with_honey",
+    "count": 1
+    }
+  ]
+}

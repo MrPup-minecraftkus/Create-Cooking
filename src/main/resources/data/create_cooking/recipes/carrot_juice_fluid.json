@@ -1,0 +1,14 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:carrot"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "create_cooking:carrot_juice_fluid",
+      "amount": 10125
+    }
+  ]
+}

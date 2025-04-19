@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "create_cooking:canned_goods"
+    },
+    {
+      "amount": 27000,
+      "fluid": "create_cooking:stewed_meat_fluid",
+      "nbt": {}
+    }
+  ],
+  "results": [
+    {
+      "item": "create_cooking:canned_meat"
+    }
+  ]
+}

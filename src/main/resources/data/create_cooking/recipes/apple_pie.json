@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "create:dough"
+    },
+    "3": {
+      "item": "minecraft:sugar"
+    },
+    "4": {
+      "item": "minecraft:apple"
+    },
+    "5": {
+      "item": "minecraft:sugar"
+    },
+    "7": {
+      "item": "create:dough"
+    }
+  },
+  "result": {
+    "item": "create_cooking:apple_pie",
+    "count": 1
+  }
+}

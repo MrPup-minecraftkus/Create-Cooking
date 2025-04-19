@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "create_cooking:block/cheese_block",
+    "up": "create_cooking:block/cheese_block",
+    "north": "create_cooking:block/cheese_block",
+    "east": "create_cooking:block/cheese_block",
+    "south": "create_cooking:block/cheese_block",
+    "west": "create_cooking:block/cheese_block",
+    "particle": "create_cooking:block/cheese_block"
+  },
+  "render_type": "solid"
+}

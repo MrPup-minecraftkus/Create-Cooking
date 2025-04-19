@@ -1,0 +1,19 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "create_cooking:sliced_bread"
+    },
+    {
+      "amount": 27000,
+      "fluid": "create:chocolate",
+      "nbt": {}
+    }
+  ],
+  "results": [
+    {
+      "item": "create_cooking:toast_with_chocolate",
+    "count": 1
+    }
+  ]
+}

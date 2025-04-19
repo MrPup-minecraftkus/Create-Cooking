@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "amount": 27000,
+      "fluid": "create_cooking:sweet_berries_juice_fluid",
+      "nbt": {}
+    }
+  ],
+  "results": [
+    {
+      "item": "create_cooking:sweet_berries_juice"
+    }
+  ]
+}

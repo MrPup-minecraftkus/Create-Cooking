@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "create_cooking:cheese_block"
+    }
+  ],
+  "result": {
+    "item": "create_cooking:cheese",
+    "count": 4
+  }
+}

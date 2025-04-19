@@ -1,0 +1,31 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:bone",
+      "count": 1
+    },
+    {
+      "item": "minecraft:spider_eye",
+      "count": 1
+    },
+    {
+      "item": "minecraft:rotten_flesh",
+      "count": 1
+    },
+    {
+      "item": "minecraft:poisonous_potato",
+      "count": 1
+    },
+    {
+      "fluid": "minecraft:water",
+      "amount": 81000
+    }
+  ],
+  "results": [
+    {
+      "fluid": "create_cooking:poisonous_decoction_fluid",
+      "amount": 81000
+    }
+  ]
+}
