@@ -1,0 +1,20 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "amount": 27000,
+      "fluid": "create:chocolate"
+    },
+    {
+      "amount": 81000,
+      "fluid": "create_cooking:ice_cream_fluid",
+      "nbt": {}
+    }
+  ],
+  "results": [
+    {
+      "fluid": "create_cooking:chocolate_ice_cream_fluid",
+      "amount": 81000
+    }
+  ]
+}

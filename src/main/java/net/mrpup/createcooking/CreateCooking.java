@@ -3,8 +3,8 @@ package net.mrpup.createcooking;
 import net.fabricmc.api.ModInitializer;
 
 import net.mrpup.createcooking.block.ModBlocks;
-import net.mrpup.createcooking.fluid.CarrotJuiceFluid;
 import net.mrpup.createcooking.fluid.ModFluids;
+import net.mrpup.createcooking.item.CustomLoot;
 import net.mrpup.createcooking.item.ModItemGroups;
 import net.mrpup.createcooking.item.ModItems;
 import org.slf4j.Logger;
@@ -21,5 +21,6 @@ public class CreateCooking implements ModInitializer {
 		ModBlocks.registerModBlocks();
 		ModItemGroups.registerItemGroups();
 		ModFluids.register();
+		CustomLoot.register();
 	}
 }

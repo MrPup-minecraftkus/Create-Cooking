@@ -1,0 +1,27 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:ice"
+    },
+    {
+      "amount": 27000,
+      "fluidTag": "c:milk"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "create_cooking:ice_cream_fluid",
+      "amount": 81000
+    }
+  ]
+}

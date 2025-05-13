@@ -1,0 +1,22 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:melon_slice"
+    },
+    {
+      "item": "minecraft:melon_slice"
+    },
+    {
+      "amount": 81000,
+      "fluid": "create_cooking:ice_cream_fluid",
+      "nbt": {}
+    }
+  ],
+  "results": [
+    {
+      "fluid": "create_cooking:watermelon_ice_cream_fluid",
+      "amount": 81000
+    }
+  ]
+}

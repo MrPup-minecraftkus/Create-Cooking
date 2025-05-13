@@ -16,8 +16,7 @@ import net.minecraft.world.World;
 import net.minecraft.world.WorldAccess;
 import net.minecraft.world.WorldView;
 
-public abstract class CarrotJuiceFluid extends FlowableFluid {
-
+public abstract class ChocolateIceCreamFluid extends FlowableFluid {
     protected boolean isInfinite() {
         return false;
     }
@@ -65,17 +64,17 @@ public abstract class CarrotJuiceFluid extends FlowableFluid {
 
     @Override
     public Fluid getStill() {
-        return ModFluids.STILL_CARROT_JUICE;
+        return ModFluids.STILL_CHOCOLATE_ICE_CREAM;
     }
 
     @Override
     public Fluid getFlowing() {
-        return ModFluids.FLOWING_CARROT_JUICE;
+        return ModFluids.FLOWING_CHOCOLATE_ICE_CREAM;
     }
 
     @Override
     protected BlockState toBlockState(FluidState state) {
-        return ModFluids.CARROT_JUICE_BLOCK.getDefaultState().with(Properties.LEVEL_15, getBlockStateLevel(state));
+        return ModFluids.CHOCOLATE_ICE_CREAM_BLOCK.getDefaultState().with(Properties.LEVEL_15, getBlockStateLevel(state));
     }
 
     @Override
@@ -83,7 +82,7 @@ public abstract class CarrotJuiceFluid extends FlowableFluid {
         return false;
     }
 
-    public static class Flowing extends CarrotJuiceFluid {
+    public static class Flowing extends ChocolateIceCreamFluid {
         @Override
         protected void appendProperties(StateManager.Builder<Fluid, FluidState> builder) {
             super.appendProperties(builder);
@@ -92,7 +91,7 @@ public abstract class CarrotJuiceFluid extends FlowableFluid {
 
         @Override
         public Item getBucketItem() {
-            return ModFluids.CARROT_JUICE_BUCKET;
+            return ModFluids.CHOCOLATE_ICE_CREAM_BUCKET;
         }
 
         @Override
@@ -111,7 +110,7 @@ public abstract class CarrotJuiceFluid extends FlowableFluid {
         }
     }
 
-    public static class Still extends CarrotJuiceFluid {
+    public static class Still extends ChocolateIceCreamFluid {
         @Override
         protected boolean isInfinite(World world) {
             return false;
@@ -124,7 +123,7 @@ public abstract class CarrotJuiceFluid extends FlowableFluid {
 
         @Override
         public Item getBucketItem() {
-            return ModFluids.CARROT_JUICE_BUCKET;
+            return ModFluids.CHOCOLATE_ICE_CREAM_BUCKET;
         }
 
         @Override

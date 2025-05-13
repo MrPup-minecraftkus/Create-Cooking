@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "create_cooking:waffle"
+    }
+  ],
+  "results": [
+    {
+      "item": "create_cooking:cone"
+    }
+  ]
+}

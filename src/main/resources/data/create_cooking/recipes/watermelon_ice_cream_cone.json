@@ -1,0 +1,18 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "create_cooking:cone"
+    },
+    {
+      "amount": 27000,
+      "fluid": "create_cooking:watermelon_ice_cream_fluid",
+      "nbt": {}
+    }
+  ],
+  "results": [
+    {
+      "item": "create_cooking:watermelon_ice_cream_cone"
+    }
+  ]
+}

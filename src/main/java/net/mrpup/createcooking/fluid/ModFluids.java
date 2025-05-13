@@ -50,6 +50,21 @@ public class ModFluids {
     public static Block PUMPKIN_PORRIDGE_BLOCK;
     public static Item PUMPKIN_PORRIDGE_BUCKET;
 
+    public static FlowableFluid STILL_ICE_CREAM;
+    public static FlowableFluid FLOWING_ICE_CREAM;
+    public static Block ICE_CREAM_BLOCK;
+    public static Item ICE_CREAM_BUCKET;
+
+    public static FlowableFluid STILL_CHOCOLATE_ICE_CREAM;
+    public static FlowableFluid FLOWING_CHOCOLATE_ICE_CREAM;
+    public static Block CHOCOLATE_ICE_CREAM_BLOCK;
+    public static Item CHOCOLATE_ICE_CREAM_BUCKET;
+
+    public static FlowableFluid STILL_WATERMELON_ICE_CREAM;
+    public static FlowableFluid FLOWING_WATERMELON_ICE_CREAM;
+    public static Block WATERMELON_ICE_CREAM_BLOCK;
+    public static Item WATERMELON_ICE_CREAM_BUCKET;
+
     public static void register() {
         STILL_CARROT_JUICE = Registry.register(Registries.FLUID,
                 new Identifier(CreateCooking.MOD_ID, "carrot_juice_fluid"), new CarrotJuiceFluid.Still());
@@ -120,5 +135,35 @@ public class ModFluids {
                 new FluidBlock(ModFluids.STILL_PUMPKIN_PORRIDGE, FabricBlockSettings.copyOf(Blocks.WATER)){ });
         PUMPKIN_PORRIDGE_BUCKET = Registry.register(Registries.ITEM, new Identifier(CreateCooking.MOD_ID, "pumpkin_porridge_bucket"),
                 new BucketItem(ModFluids.STILL_PUMPKIN_PORRIDGE, new FabricItemSettings().recipeRemainder(Items.BUCKET).maxCount(1)));
+
+        STILL_ICE_CREAM = Registry.register(Registries.FLUID,
+                new Identifier(CreateCooking.MOD_ID, "ice_cream_fluid"), new IceCreamFluid.Still());
+        FLOWING_ICE_CREAM = Registry.register(Registries.FLUID,
+                new Identifier(CreateCooking.MOD_ID, "flowing_ice_cream"), new IceCreamFluid.Flowing());
+
+        ICE_CREAM_BLOCK = Registry.register(Registries.BLOCK, new Identifier(CreateCooking.MOD_ID, "ice_cream_block"),
+                new FluidBlock(ModFluids.STILL_ICE_CREAM, FabricBlockSettings.copyOf(Blocks.WATER)){ });
+        ICE_CREAM_BUCKET = Registry.register(Registries.ITEM, new Identifier(CreateCooking.MOD_ID, "ice_cream_bucket"),
+                new BucketItem(ModFluids.STILL_ICE_CREAM, new FabricItemSettings().recipeRemainder(Items.BUCKET).maxCount(1)));
+
+        STILL_CHOCOLATE_ICE_CREAM = Registry.register(Registries.FLUID,
+                new Identifier(CreateCooking.MOD_ID, "chocolate_ice_cream_fluid"), new ChocolateIceCreamFluid.Still());
+        FLOWING_CHOCOLATE_ICE_CREAM = Registry.register(Registries.FLUID,
+                new Identifier(CreateCooking.MOD_ID, "flowing_chocolate_ice_cream"), new ChocolateIceCreamFluid.Flowing());
+
+        CHOCOLATE_ICE_CREAM_BLOCK = Registry.register(Registries.BLOCK, new Identifier(CreateCooking.MOD_ID, "chocolate_ice_cream_block"),
+                new FluidBlock(ModFluids.STILL_CHOCOLATE_ICE_CREAM, FabricBlockSettings.copyOf(Blocks.WATER)){ });
+        CHOCOLATE_ICE_CREAM_BUCKET = Registry.register(Registries.ITEM, new Identifier(CreateCooking.MOD_ID, "chocolate_ice_cream_bucket"),
+                new BucketItem(ModFluids.STILL_CHOCOLATE_ICE_CREAM, new FabricItemSettings().recipeRemainder(Items.BUCKET).maxCount(1)));
+
+        STILL_WATERMELON_ICE_CREAM = Registry.register(Registries.FLUID,
+                new Identifier(CreateCooking.MOD_ID, "watermelon_ice_cream_fluid"), new WatermelonIceCreamFluid.Still());
+        FLOWING_WATERMELON_ICE_CREAM = Registry.register(Registries.FLUID,
+                new Identifier(CreateCooking.MOD_ID, "flowing_watermelon_ice_cream"), new WatermelonIceCreamFluid.Flowing());
+
+        WATERMELON_ICE_CREAM_BLOCK = Registry.register(Registries.BLOCK, new Identifier(CreateCooking.MOD_ID, "watermelon_ice_cream_block"),
+                new FluidBlock(ModFluids.STILL_WATERMELON_ICE_CREAM, FabricBlockSettings.copyOf(Blocks.WATER)){ });
+        WATERMELON_ICE_CREAM_BUCKET = Registry.register(Registries.ITEM, new Identifier(CreateCooking.MOD_ID, "watermelon_ice_cream_bucket"),
+                new BucketItem(ModFluids.STILL_WATERMELON_ICE_CREAM, new FabricItemSettings().recipeRemainder(Items.BUCKET).maxCount(1)));
     }
 }

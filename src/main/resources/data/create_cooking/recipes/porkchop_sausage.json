@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "minecraft:porkchop"
+    },
+    {
+      "item": "create_cooking:sausage_casings"
+    }
+  ],
+  "results": [
+    {
+      "item": "create_cooking:porkchop_sausage"
+    }
+  ]
+}

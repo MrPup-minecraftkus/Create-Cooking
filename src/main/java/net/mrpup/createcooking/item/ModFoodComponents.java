@@ -17,22 +17,39 @@ public class ModFoodComponents {
     public static final FoodComponent HONEY_ROLL = new FoodComponent.Builder().hunger(8).saturationModifier(1.2f).build();
     public static final FoodComponent HONEY_WAFFLE = new FoodComponent.Builder().hunger(8).saturationModifier(1.2f).build();
     public static final FoodComponent HOTDOG = new FoodComponent.Builder().hunger(8).saturationModifier(1.2f).build();
+    public static final FoodComponent PORK_HOTDOG = new FoodComponent.Builder().hunger(8).saturationModifier(1.2f).build();
+    public static final FoodComponent MUTTON_HOTDOG = new FoodComponent.Builder().hunger(8).saturationModifier(1.2f).build();
+    public static final FoodComponent BEEF_HOTDOG = new FoodComponent.Builder().hunger(8).saturationModifier(1.2f).build();
     public static final FoodComponent MEAT_BALL = new FoodComponent.Builder().hunger(4).saturationModifier(0.6f).build();
     public static final FoodComponent MEATBALL_STICK_1 = new FoodComponent.Builder().hunger(4).saturationModifier(1f).build();
     public static final FoodComponent MEATBALL_STICK_2 = new FoodComponent.Builder().hunger(8).saturationModifier(1.2f).build();
     public static final FoodComponent MEATBALL_STICK_3 = new FoodComponent.Builder().hunger(12).saturationModifier(1.4f).build();
     public static final FoodComponent SANDWICH = new FoodComponent.Builder().hunger(8).saturationModifier(1.2f).build();
     public static final FoodComponent SAUSAGE = new FoodComponent.Builder().hunger(4).saturationModifier(0.6f).build();
+    public static final FoodComponent BEEF_SAUSAGE = new FoodComponent.Builder().hunger(4).saturationModifier(0.6f).build();
+    public static final FoodComponent MUTTON_SAUSAGE = new FoodComponent.Builder().hunger(4).saturationModifier(0.6f).build();
+    public static final FoodComponent PORK_SAUSAGE = new FoodComponent.Builder().hunger(4).saturationModifier(0.6f).build();
     public static final FoodComponent SLICED_BREAD = new FoodComponent.Builder().hunger(1).saturationModifier(0.3f).build();
     public static final FoodComponent TOAST_WITH_CHOCOLATE = new FoodComponent.Builder().hunger(8).saturationModifier(0.8f).build();
     public static final FoodComponent TOAST_WITH_HONEY = new FoodComponent.Builder().hunger(8).saturationModifier(0.8f).build();
     public static final FoodComponent UNCOOKED_MEATBALL = new FoodComponent.Builder().hunger(2).saturationModifier(0.3f).build();
     public static final FoodComponent UNCOOKED_WAFFLE = new FoodComponent.Builder().hunger(2).saturationModifier(0.3f).build();
     public static final FoodComponent WAFFLE = new FoodComponent.Builder().hunger(6).saturationModifier(0.8f).build();
+    public static final FoodComponent CONE = new FoodComponent.Builder().hunger(6).saturationModifier(0.8f).build();
     public static final FoodComponent HONEYED_SWEET_BERRIES = new FoodComponent.Builder().hunger(8).saturationModifier(0.8f).build();
+    public static final FoodComponent ICE_CREAM_CONE = new FoodComponent.Builder().hunger(8).saturationModifier(0.8f).build();
+    public static final FoodComponent CHOCOLATE_ICE_CREAM_CONE = new FoodComponent.Builder().hunger(10).saturationModifier(0.8f).build();
+    public static final FoodComponent WATERMELON_ICE_CREAM_CONE = new FoodComponent.Builder().hunger(10).saturationModifier(0.8f).build();
     public static final FoodComponent CANNED_MEAT = new FoodComponent.Builder().hunger(8).saturationModifier(0.8f).build();
+    public static final FoodComponent CANNED_VEGETABLES = new FoodComponent.Builder().hunger(8).saturationModifier(0.8f).build();
     public static final FoodComponent PUMPKIN_PORRIDGE = new FoodComponent.Builder().hunger(8).saturationModifier(1f).build();
     public static final FoodComponent POTATO_STEW = new FoodComponent.Builder().hunger(8).saturationModifier(1f).build();
+    public static final FoodComponent CHOCOLATE_RABBIT = new FoodComponent.Builder()
+            .hunger(8)
+            .statusEffect(new StatusEffectInstance(StatusEffects.JUMP_BOOST, 3600), 1f)
+            .statusEffect(new StatusEffectInstance(StatusEffects.SPEED, 3600), 1f)
+            .saturationModifier(1f)
+            .build();
     public static final FoodComponent CARROT_JUICE = new FoodComponent.Builder()
             .hunger(4)
             .saturationModifier(0.6f)

@@ -1,10 +1,6 @@
 package net.mrpup.createcooking.item;
 
-import com.mojang.datafixers.util.Pair;
-import net.fabricmc.api.EnvType;
-import net.fabricmc.api.Environment;
 import net.minecraft.entity.LivingEntity;
-import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.*;
 import net.minecraft.text.Text;
@@ -22,22 +18,20 @@ public class DrinkableItem extends Item {
 
     @Override
     public ItemStack finishUsing(ItemStack stack, World world, LivingEntity user) {
-        if (user instanceof PlayerEntity player) {
+        ItemStack resultStack = super.finishUsing(stack, world, user);
 
-            FoodComponent foodComponent = this.getFoodComponent();
-            if (foodComponent != null) {
-                for (Pair<StatusEffectInstance, Float> pair : foodComponent.getStatusEffects()) {
-                    if (world.getRandom().nextFloat() < pair.getSecond()) {
-                        user.addStatusEffect(new StatusEffectInstance(pair.getFirst()));
-                    }
+        if (!world.isClient) {
+            ItemStack emptyCan = new ItemStack(Items.GLASS_BOTTLE);
+            if (user instanceof net.minecraft.entity.player.PlayerEntity player) {
+                if (!player.getInventory().insertStack(emptyCan)) {
+                    player.dropItem(emptyCan, false);
                 }
-            }
-
-            if (!player.getAbilities().creativeMode) {
-                player.giveItemStack(new ItemStack(Items.GLASS_BOTTLE));
+            } else {
+                user.dropStack(emptyCan);
             }
         }
-        return super.finishUsing(stack, world, user);
+
+        return resultStack;
     }
 
     @Override

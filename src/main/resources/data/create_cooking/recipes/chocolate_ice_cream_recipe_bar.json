@@ -1,0 +1,19 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "create:bar_of_chocolate"
+    },
+    {
+      "amount": 81000,
+      "fluid": "create_cooking:ice_cream_fluid",
+      "nbt": {}
+    }
+  ],
+  "results": [
+    {
+      "fluid": "create_cooking:chocolate_ice_cream_fluid",
+      "amount": 81000
+    }
+  ]
+}

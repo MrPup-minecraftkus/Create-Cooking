@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "minecraft:beef"
+    },
+    {
+      "item": "create_cooking:sausage_casings"
+    }
+  ],
+  "results": [
+    {
+      "item": "create_cooking:beef_sausage"
+    }
+  ]
+}

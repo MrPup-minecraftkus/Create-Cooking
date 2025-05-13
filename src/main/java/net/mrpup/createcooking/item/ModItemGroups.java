@@ -18,6 +18,7 @@ public class ModItemGroups {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.cooking"))
                     .icon(() -> new ItemStack(ModItems.CHOCOLATE_ROLL)).entries((displayContext, entries) -> {
 
+                        entries.add(ModBlocks.CHEESE_BLOCK);
                         entries.add(ModItems.APPLE_PIE);
                         entries.add(ModItems.EXPERIENCE_PIE);
                         entries.add(ModItems.BAKED_APPLE);
@@ -33,7 +34,13 @@ public class ModItemGroups {
                         entries.add(ModItems.MEATBALL_STICK_3);
                         entries.add(ModItems.SANDWICH);
                         entries.add(ModItems.SAUSAGE);
+                        entries.add(ModItems.BEEF_SAUSAGE);
+                        entries.add(ModItems.MUTTON_SAUSAGE);
+                        entries.add(ModItems.PORK_SAUSAGE);
                         entries.add(ModItems.HOTDOG);
+                        entries.add(ModItems.PORK_HOTDOG);
+                        entries.add(ModItems.MUTTON_HOTDOG);
+                        entries.add(ModItems.BEEF_HOTDOG);
                         entries.add(ModItems.SLICED_BREAD);
                         entries.add(ModItems.TOAST_WITH_CHOCOLATE);
                         entries.add(ModItems.TOAST_WITH_HONEY);
@@ -47,9 +54,17 @@ public class ModItemGroups {
                         entries.add(ModItems.SWEET_BERRIES_JUICE);
                         entries.add(ModItems.HONEYED_SWEET_BERRIES);
                         entries.add(ModItems.CANNED_MEAT);
+                        entries.add(ModItems.CANNED_VEGETABLES);
                         entries.add(ModItems.CANNED_GOODS);
                         entries.add(ModItems.POTATO_STEW);
                         entries.add(ModItems.PUMPKIN_PORRIDGE);
+                        entries.add(ModItems.INTESTINES);
+                        entries.add(ModItems.SAUSAGE_CASINGS);
+                        entries.add(ModItems.CONE);
+                        entries.add(ModItems.ICE_CREAM_CONE);
+                        entries.add(ModItems.CHOCOLATE_ICE_CREAM_CONE);
+                        entries.add(ModItems.WATERMELON_ICE_CREAM_CONE);
+                        entries.add(ModItems.CHOCOLATE_RABBIT);
                         entries.add(ModFluids.CARROT_JUICE_BUCKET);
                         entries.add(ModFluids.WATERMELON_JUICE_BUCKET);
                         entries.add(ModFluids.SWEET_BERRIES_JUICE_BUCKET);
@@ -57,9 +72,9 @@ public class ModItemGroups {
                         entries.add(ModFluids.POTATO_STEW_BUCKET);
                         entries.add(ModFluids.STEWED_MEAT_BUCKET);
                         entries.add(ModFluids.PUMPKIN_PORRIDGE_BUCKET);
-
-
-                        entries.add(ModBlocks.CHEESE_BLOCK);
+                        entries.add(ModFluids.ICE_CREAM_BUCKET);
+                        entries.add(ModFluids.CHOCOLATE_ICE_CREAM_BUCKET);
+                        entries.add(ModFluids.WATERMELON_ICE_CREAM_BUCKET);
                     }).build());
 
 
